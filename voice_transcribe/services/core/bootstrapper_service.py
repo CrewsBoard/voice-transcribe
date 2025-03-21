@@ -1,7 +1,7 @@
 from fastapi import FastAPI
 
-from whisper_transcribe.routers import routes
-from whisper_transcribe.shared.utils import logger
+from voice_transcribe.routers import routes
+from voice_transcribe.shared.utils import logger
 
 
 class BootstrapperService:

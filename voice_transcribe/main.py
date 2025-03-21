@@ -2,7 +2,7 @@ import uvicorn
 from fastapi import FastAPI
 from starlette.middleware.cors import CORSMiddleware
 
-from whisper_transcribe.services.core import BootstrapperService
+from voice_transcribe.services.core import BootstrapperService
 
 
 def create_app():

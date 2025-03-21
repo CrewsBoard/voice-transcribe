@@ -1,8 +1,8 @@
 import datetime
 
-from whisper_transcribe.dtos.transcriber import TranscriberDto, TranscribedDto
-from whisper_transcribe.services.core.base_service import BaseService
-from whisper_transcribe.shared.utils import logger
+from voice_transcribe.dtos.transcriber import TranscriberDto, TranscribedDto
+from voice_transcribe.services.core.base_service import BaseService
+from voice_transcribe.shared.utils import logger
 
 
 class TranscriberService(BaseService):

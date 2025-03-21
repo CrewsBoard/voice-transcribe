@@ -1,6 +1,6 @@
 from fastapi import APIRouter
 
-from whisper_transcribe.controllers import BaseController
+from voice_transcribe.controllers import BaseController
 
 
 class TranscribeController(BaseController):

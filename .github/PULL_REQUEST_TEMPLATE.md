@@ -1,5 +1,5 @@
 <!--
-Thank you for contributing to Whisper Transcribe!
+Thank you for contributing to Voice Transcribe!
 Please fill in the information below to expedite the review process.
 -->
 

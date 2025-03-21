@@ -1,6 +1,6 @@
 from typing import Any
 
-from whisper_transcribe.services.ws import WsService
+from voice_transcribe.services.ws import WsService
 
 
 class BaseService:

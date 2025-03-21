@@ -1,14 +1,14 @@
 blank_issues_enabled: false
 contact_links:
   - name: 💬 Discussions
-    url: https://github.com/CrewsBoard/whisper-transcribe/discussions
-    about: For general questions, ideas, or community discussions about Whisper Transcribe
+    url: https://github.com/CrewsBoard/voice-transcribe/discussions
+    about: For general questions, ideas, or community discussions about Voice Transcribe
   - name: 📝 Usage Examples
-    url: https://github.com/CrewsBoard/whisper-transcribe/tree/main/examples
+    url: https://github.com/CrewsBoard/voice-transcribe/tree/main/examples
     about: Check our examples directory for common usage scenarios and integrations
   - name: 📚 Documentation
-    url: https://github.com/CrewsBoard/whisper-transcribe#readme
+    url: https://github.com/CrewsBoard/voice-transcribe#readme
     about: Read the project documentation for answers to common questions
   - name: 🚀 Feature Request
-    url: https://github.com/CrewsBoard/whisper-transcribe/issues/new?template=feature.yml
-    about: Suggest new features or enhancements for Whisper Transcribe
+    url: https://github.com/CrewsBoard/voice-transcribe/issues/new?template=feature.yml
+    about: Suggest new features or enhancements for Voice Transcribe

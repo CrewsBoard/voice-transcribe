@@ -1,4 +1,4 @@
-from whisper_transcribe.dtos.settings import ServerSettingsDto
+from voice_transcribe.dtos.settings import ServerSettingsDto
 
 
 class SettingsDto:

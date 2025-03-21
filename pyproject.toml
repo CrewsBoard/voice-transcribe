@@ -1,7 +1,7 @@
 [project]
-name = "whisper-transcribe"
+name = "voice-transcribe"
 version = "0.1.0"
-description = "A unified API for working with various Whisper speech-to-text implementations"
+description = "A unified API for working with various Voice speech-to-text and text-to-speech implementations"
 readme = "README.md"
 requires-python = ">=3.10.11"
 license = { file = "LICENSE" }
@@ -25,9 +25,9 @@ dependencies = [
 ]
 
 [project.urls]
-"Homepage" = "https://github.com/CrewsBoard/whisper-transcribe"
-"Bug Tracker" = "https://github.com/CrewsBoard/whisper-transcribe/issues"
-"Documentation" = "https://github.com/CrewsBoard/whisper-transcribe#readme"
+"Homepage" = "https://github.com/CrewsBoard/voice-transcribe"
+"Bug Tracker" = "https://github.com/CrewsBoard/voice-transcribe/issues"
+"Documentation" = "https://github.com/CrewsBoard/voice-transcribe#readme"
 
 [tool.black]
 line-length = 88

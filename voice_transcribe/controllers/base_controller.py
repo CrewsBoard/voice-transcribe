@@ -1,12 +1,10 @@
 from typing import Any
 
-from whisper_transcribe.dtos.core import RequestMethods
-
-from whisper_transcribe.dtos.transcriber import TranscriberDto
-from whisper_transcribe.dtos.ws import WsRequestTypes
-from whisper_transcribe.services.core.base_service import BaseService
-from whisper_transcribe.services.transcriber import TranscriberService
-from whisper_transcribe.services.ws import WsService
+from voice_transcribe.dtos.transcriber import TranscriberDto
+from voice_transcribe.dtos.ws import WsRequestTypes
+from voice_transcribe.services.core.base_service import BaseService
+from voice_transcribe.services.transcriber import TranscriberService
+from voice_transcribe.services.ws import WsService
 
 
 class BaseController():

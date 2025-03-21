@@ -1,4 +1,4 @@
-# Code Owners for Whisper Transcribe
+# Code Owners for Voice Transcribe
 # https://help.github.com/articles/about-codeowners/
 
 # Default owners for everything in the repo
@@ -10,7 +10,7 @@ docs/               @rjarman
 .github/            @rjarman
 
 # Core application code
-/whisper_transcribe/ @rjarman
+/voice_transcribe/ @rjarman
 
 # Testing
 /tests/             @rjarman
