@@ -17,7 +17,10 @@ classifiers = [
     "Programming Language :: Python :: 3.10",
     "Topic :: Multimedia :: Sound/Audio :: Speech"
 ]
-dependencies = []
+dependencies = [
+    "fastapi>=0.115.11",
+    "uvicorn>=0.34.0",
+]
 
 [project.urls]
 "Homepage" = "https://github.com/CrewsBoard/whisper-transcribe"
