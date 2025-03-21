@@ -1,0 +1,3 @@
+server:
+  name: "Dev Server"
+  debug: False
