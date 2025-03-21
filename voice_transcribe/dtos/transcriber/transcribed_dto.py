@@ -1,6 +1,6 @@
 from pydantic import UUID4
 
-from whisper_transcribe.dtos.ws import WsResponseDto
+from voice_transcribe.dtos.ws import WsResponseDto
 
 
 class TranscribedDto(WsResponseDto):

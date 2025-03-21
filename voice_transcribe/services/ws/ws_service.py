@@ -1,8 +1,7 @@
 from starlette.websockets import WebSocket, WebSocketDisconnect
-from whisper_transcribe.dtos.core import RequestMethods
 
-from whisper_transcribe.services.ws import ConnectionManagerService
-from whisper_transcribe.shared.utils import logger
+from voice_transcribe.services.ws import ConnectionManagerService
+from voice_transcribe.shared.utils import logger
 
 
 class WsService(ConnectionManagerService):

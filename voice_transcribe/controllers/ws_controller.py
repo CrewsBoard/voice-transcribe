@@ -1,7 +1,7 @@
 from fastapi import APIRouter
 from starlette.websockets import WebSocket
 
-from whisper_transcribe.controllers import BaseController
+from voice_transcribe.controllers import BaseController
 
 
 class WsController(BaseController):

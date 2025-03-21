@@ -1,5 +1,5 @@
 name: 📚 Documentation Issue
-description: Report issues or suggest improvements to Whisper Transcribe documentation
+description: Report issues or suggest improvements to Voice Transcribe documentation
 labels: [ documentation, 'status: needs triage' ]
 body:
   - type: markdown
@@ -7,13 +7,13 @@ body:
       value: |
         ## Documentation Issue or Suggestion
         
-        Thanks for helping us improve the Whisper Transcribe documentation! Clear and comprehensive documentation makes a huge difference for all users.
+        Thanks for helping us improve the Voice Transcribe documentation! Clear and comprehensive documentation makes a huge difference for all users.
 
   - type: checkboxes
     attributes:
       label: Prerequisites
       options:
-        - label: I have searched for similar documentation issues in the [issue tracker](https://github.com/CrewsBoard/whisper-transcribe/issues).
+        - label: I have searched for similar documentation issues in the [issue tracker](https://github.com/CrewsBoard/voice-transcribe/issues).
           required: true
         - label: I have verified this is specifically a documentation issue, not a feature request or bug report.
           required: true

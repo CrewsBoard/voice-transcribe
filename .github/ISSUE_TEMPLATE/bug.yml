@@ -1,5 +1,5 @@
 name: 🐛 Bug Report
-description: Submit a bug report for Whisper Transcribe
+description: Submit a bug report for Voice Transcribe
 labels: [ bug, 'status: needs triage' ]
 body:
   - type: markdown
@@ -8,11 +8,11 @@ body:
         ## Please help us help you!
 
         Before filing your issue, please consider:
-        - Is this clearly a Whisper Transcribe defect?
+        - Is this clearly a Voice Transcribe defect?
         - Do you have basic information about where it goes wrong?
         - Could it be due to your own configuration or environment?
 
-        The quickest way to verify whether it's a Whisper Transcribe defect is through a **minimal reproduction** demonstrating the issue.
+        The quickest way to verify whether it's a Voice Transcribe defect is through a **minimal reproduction** demonstrating the issue.
 
         Bugs are fixed faster if you include:
         - A minimal reproduction code sample
@@ -25,7 +25,7 @@ body:
       label: Prerequisites
       description: Please check the following items before creating an issue.
       options:
-        - label: I'm using the latest version of Whisper Transcribe.
+        - label: I'm using the latest version of Voice Transcribe.
           required: true
         - label: I have verified this issue is not already reported.
           required: true
@@ -45,7 +45,7 @@ body:
       description: Write down the steps to reproduce the bug.
       placeholder: |
         1. Set up environment with...
-        2. Configure Whisper Transcribe with...
+        2. Configure Voice Transcribe with...
         3. Try to transcribe audio file...
         4. See error...
     validations:
@@ -54,7 +54,7 @@ body:
   - type: textarea
     attributes:
       label: Expected behavior
-      description: How did you expect Whisper Transcribe to behave?
+      description: How did you expect Voice Transcribe to behave?
       placeholder: Describe what should have happened.
     validations:
       required: true
@@ -74,7 +74,7 @@ body:
       description: If applicable, add a minimal code example that reproduces the issue.
       render: python
       placeholder: |
-        import whisper_transcribe
+        import voice_transcribe
 
         # Example code that triggers the issue
 
@@ -83,10 +83,10 @@ body:
       label: Your environment
       description: Include details about your environment.
       value: |
-        - Whisper Transcribe version:
+        - Voice Transcribe version:
         - Python version:
         - Operating system and version:
-        - Whisper model/implementation used:
+        - Voice model/implementation used:
         - Hardware specs (if relevant):
         - Virtual environment tool (venv/conda/etc.):
 

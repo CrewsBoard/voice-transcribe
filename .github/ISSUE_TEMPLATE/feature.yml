@@ -1,24 +1,24 @@
 name: 💡 Feature Request
-description: Suggest a new feature or enhancement for Whisper Transcribe
+description: Suggest a new feature or enhancement for Voice Transcribe
 labels: [ feature, enhancement, 'status: needs triage' ]
 body:
   - type: markdown
     attributes:
       value: |
-        ## Thank you for suggesting a feature for Whisper Transcribe!
+        ## Thank you for suggesting a feature for Voice Transcribe!
 
         **Before submitting a feature request, please consider:**
 
         * **Check existing issues:** Ensure your suggestion hasn't already been submitted.
         * **Be clear and concise:** Provide a detailed description of your proposed feature or enhancement.
-        * **Explain the benefits:** Describe how your idea would benefit users of Whisper Transcribe.
+        * **Explain the benefits:** Describe how your idea would benefit users of Voice Transcribe.
         * **Provide examples (if applicable):** Include screenshots, code snippets, or other relevant examples to illustrate your point.
 
   - type: checkboxes
     attributes:
       label: Prerequisites
       options:
-        - label: I have searched for similar feature requests in the [issue tracker](https://github.com/yourusername/whisper-transcribe/issues).
+        - label: I have searched for similar feature requests in the [issue tracker](https://github.com/yourusername/voice-transcribe/issues).
           required: true
         - label: I have reviewed the documentation for relevant information.
           required: true
@@ -27,7 +27,7 @@ body:
     attributes:
       label: Feature Description
       description: Provide a clear and detailed description of your proposed feature or enhancement.
-      placeholder: I would like Whisper Transcribe to support...
+      placeholder: I would like Voice Transcribe to support...
     validations:
       required: true
 

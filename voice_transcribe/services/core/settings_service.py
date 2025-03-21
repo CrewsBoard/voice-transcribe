@@ -3,8 +3,7 @@ from pathlib import Path
 
 import yaml
 from pydantic_settings import BaseSettings
-
-from whisper_transcribe.dtos.settings import SettingsDto
+from voice_transcribe.dtos.settings import SettingsDto
 
 
 class SettingsService(BaseSettings, SettingsDto):
@@ -16,7 +15,7 @@ class SettingsService(BaseSettings, SettingsDto):
 
     @classmethod
     def yaml_config_source(cls):
-        _project_name = 'whisper_transcribe'
+        _project_name = 'voice_transcribe'
         _default_env = 'dev'
         _config_dir = 'configs'
         _config_extension = '.yaml'

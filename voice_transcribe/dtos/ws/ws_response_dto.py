@@ -1,6 +1,6 @@
 from pydantic import BaseModel
 
-from whisper_transcribe.dtos.ws import WsRequestTypes
+from voice_transcribe.dtos.ws import WsRequestTypes
 
 
 class WsResponseDto(BaseModel):
