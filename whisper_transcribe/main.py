@@ -2,15 +2,21 @@ import uvicorn
 from fastapi import FastAPI
 from starlette.middleware.cors import CORSMiddleware
 
-from whisper_transcribe.routers import routes
+from whisper_transcribe.services.core.bootstrapper_service import BootstrapperService
 
 
 def create_app():
+    async def startup():
+        await BootstrapperService.start(app)
+
+    async def shutdown():
+        await BootstrapperService.stop(app)
+
     app = FastAPI(docs_url="/docs", redoc_url="/redoc",
                   swagger_ui_parameters={"syntaxHighlight": {"theme": "obsidian"}})
+    app.add_event_handler('startup', startup)
+    app.add_event_handler('shutdown', shutdown)
     origins = ["*"]
-    for route in routes:
-        app.include_router(route)
     app.add_middleware(
         CORSMiddleware,
         allow_origins=origins,
