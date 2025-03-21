@@ -1,0 +1,3 @@
+server:
+  name: "Prod Server"
+  debug: False
