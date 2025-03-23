@@ -3,3 +3,4 @@ TODO.md
 .DS_Store
 .venv
 __pycache__
+.tmp

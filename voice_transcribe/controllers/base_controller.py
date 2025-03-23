@@ -7,7 +7,7 @@ from voice_transcribe.services.transcriber import TranscriberService
 from voice_transcribe.services.ws import WsService
 
 
-class BaseController():
+class BaseController:
     def __init__(self):
         self.transcribe_swagger_tags = ["Transcribe"]
 
