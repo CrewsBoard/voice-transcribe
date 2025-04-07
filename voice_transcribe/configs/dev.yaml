@@ -1,3 +1,6 @@
 server:
   name: "Dev Server"
   debug: False
+
+model:
+  model_store_path: "../.models"

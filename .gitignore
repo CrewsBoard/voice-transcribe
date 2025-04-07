@@ -4,3 +4,5 @@ TODO.md
 .venv
 __pycache__
 .tmp
+.models
+*.egg-info
