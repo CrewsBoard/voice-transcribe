@@ -53,3 +53,8 @@ warn_unused_ignores = true
 
 [tool.pytest]
 testpaths = ["tests"]
+
+[dependency-groups]
+dev = [
+    "gunicorn>=23.0.0",
+]
