@@ -1,3 +1,6 @@
 server:
   name: "Stage Server"
   debug: False
+
+model:
+  model_store_path: "../.models"
