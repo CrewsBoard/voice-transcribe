@@ -18,7 +18,7 @@ body:
     attributes:
       label: Prerequisites
       options:
-        - label: I have searched for similar feature requests in the [issue tracker](https://github.com/yourusername/voice-transcribe/issues).
+        - label: I have searched for similar feature requests in the [issue tracker](https://github.com/CrewsBoard/voice-transcribe/issues).
           required: true
         - label: I have reviewed the documentation for relevant information.
           required: true
